@@ -8,5 +8,4 @@ public class ArraysOperationsFunctions {
             sum+=arr[i];
         }return sum;
     }
-
 }
