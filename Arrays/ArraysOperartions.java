@@ -9,6 +9,9 @@ public class ArraysOperartions {
         //Display array
         System.out.println(Arrays.toString(arr));
 
+        //sum of elements in array
+        System.out.println(ArraysOperationsFunctions.getSum(arr));
+
         //sorting array
         Arrays.sort(arr);
         System.out.println("Sorted array -> "+Arrays.toString(arr));
