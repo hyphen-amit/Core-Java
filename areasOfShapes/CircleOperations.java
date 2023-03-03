@@ -4,7 +4,6 @@ public class CircleOperations {
 
     private float radius;
     static final float PI=3.14f;
-
     public float getRadius() {
         return radius;
     }
@@ -17,7 +16,6 @@ public class CircleOperations {
         float area=PI*radius*radius;
         return area;
     }
-
     @Override
     public String toString() {
         return "CircleOperations{" +
