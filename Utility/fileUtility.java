@@ -83,7 +83,6 @@ public class fileUtility {
         }
         return true;
     }
-
     public static void main(String[] args) {
         String fileName="Utility/data/file"+"readme_createFile.txt";
         boolean created = createFile(fileName);
