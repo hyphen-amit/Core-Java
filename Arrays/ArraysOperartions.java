@@ -21,12 +21,12 @@ public class ArraysOperartions {
         System.out.println(key + " found at index " + Arrays.binarySearch(arr, key));
 
         //compare arrays
-        int arr2[]={20,10,30};
-        if(Arrays.compare(arr, arr2)==0){
-            System.out.println("Equal arrays");
-        }else{
-            System.out.println("NOt equal");
-        }
+//        int arr2[]={20,10,30};
+//        if(Arrays.compare(arr, arr2)==0){
+//            System.out.println("Equal arrays");
+//        }else{
+//            System.out.println("NOt equal");
+//        }
 
         //create copy of array
         int arr3[]=Arrays.copyOf(arr, arr.length);

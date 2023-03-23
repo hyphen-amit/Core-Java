@@ -11,7 +11,6 @@ public class EmployeeDetails extends Employee{
         this.experience=experience;
     }
 
-
     public void isEligible(){
         if(experience >= 2){
             System.out.println("Employee is eligible for promotion");
@@ -19,5 +18,4 @@ public class EmployeeDetails extends Employee{
             System.out.println("Employee is not eligible for promotion");
         }
     }
-
 }

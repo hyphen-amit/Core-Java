@@ -19,7 +19,7 @@ public class Set_Example {
 //        arr.add("INDIA");
 //        arr.add("USA");
         Set<String> unique_countries=new HashSet<>();
-        unique_countries.addAll(arr);
+//        unique_countries.addAll(arr);
 
             for(int i=0;i<=n;i++){
                 String data=sc.nextLine();
